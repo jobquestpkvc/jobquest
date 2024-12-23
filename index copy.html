@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobQuest</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 15px;
+            background-color: #f3d2d2; /* สีแถบ */
+}
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+        height: 100px; /* ปรับเฉพาะความสูงของโลโก้ */
+        }
+
+        img[src="pkvc.png"] {
+        height: 70px;
+        width: auto; /* รักษาสัดส่วนความกว้าง-ยาว */
+        }
+
+
+        .logo span {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #555;
+            font-size: 16px;
+        }
+
+        .menu a:hover {
+            color: #007bff; /* สีฟ้าเมื่อชี้เมาส์ */
+            text-decoration: underline;
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .actions select {
+            font-size: 14px;
+            padding: 5px;
+        }
+
+        .actions button {
+            padding: 8px 15px;
+            border: 1px solid #007bff;
+            background-color: white;
+            color: #007bff;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .actions button:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="JOBQUEST.png" alt="Logo">
+            <img src="pkvc.png" alt="Logo">
+        </div>
+        <nav class="menu">
+            <a href="#">ค้นหางาน</a>
+            <a href="#">ประวัติของฉัน</a>
+            <a href="#">งานของฉัน</a>
+        </nav>
+        <div class="actions">
+            <select>
+                <option value="th">ภาษาไทย</option>
+                <option value="en">English</option>
+            </select>
+            <button>เข้าสู่ระบบ</button>
+            <button>ผู้ประกอบการเข้าสู่ระบบ</button>
+        </div>
+    </header>
+</body>
+</html>
